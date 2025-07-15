@@ -14,3 +14,7 @@ print(json)
 print("People Currently In Space are:")
 for person in json["people"]:
     print(person["name"])
+
+print("List Of Crafts:")
+for vehicle in json["people"]:
+    print(vehicle["craft"])
